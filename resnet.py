@@ -74,8 +74,8 @@ class Block(chainer.Chain):
 
 class ResNet(chainer.Chain):
 
-    #insize = 224
-    insize = 250
+    insize = 224
+    #insize = 250
     def __init__(self):
         w = math.sqrt(2)
         super(ResNet, self).__init__(
