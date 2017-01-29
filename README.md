@@ -39,7 +39,7 @@ sigma.npy が作成されます。画像の標準偏差（シグマ）を保存�
 * 05_test.py ・・・・・・・・・・・・・・・・・・・・・・・・・ （未完成）  
 * 06_predict.py ・・・・・・・・・・・・・・・・・・・・・・ （未完成）  
 * network.py ・・・・・・・・・・・・・・・・・・・・・・・・・ CNNの定義(ResNet導入前に使っていたもの)  
-* resnet.py ・・・・・・・・・・・・・・・・・・・・・・・・・ ResNetの定義  
+* resnet.py ・・・・・・・・・・・・・・・・・・・・・・・・・ ResNetの定義（こちらを拝借）（https://github.com/yasunorikudo/chainer-ResNet/blob/master/ResNet101.py）  
 * mean.npy ・・・・・・・・・・・・・・・・・・・・・・・・・・・ 平均画像ファイル  
 * sigma.npy ・・・・・・・・・・・・・・・・・・・・・・・・・・ 標準偏差ファイル  
 
